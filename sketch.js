@@ -54,7 +54,7 @@ function draw() {
 function spawnHelpingRects(){
 	if(frameCount%40===0){
 		helpRect = createSprite(0,500,200,10);
-		helpRect.x=random(30,770);
+		helpRect.x=random(100,770);
 
 		helpRect.velocityY= -10;
 
